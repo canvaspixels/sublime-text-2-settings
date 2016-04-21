@@ -1,0 +1,39 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"Babel Snippets",
+		"CSSFormat",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"FileDiffs",
+		"FreeMarker",
+		"FTPSync",
+		"Git",
+		"GitGutter",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"HtmlTidy",
+		"JSCS-Formatter",
+		"JsFormat",
+		"JSX",
+		"LESS",
+		"Minifier",
+		"Package Control",
+		"ReactJS",
+		"Sass",
+		"SCSS",
+		"SublimeLinter",
+		"Syntax Highlighting for Sass",
+		"Text Pastry",
+		"TrailingSpaces",
+		"W3CValidators"
+	]
+}

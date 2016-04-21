@@ -1,0 +1,21 @@
+[
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+d"], "command": "file_diff_menu"},
+	{ "keys": ["super+ctrl+down"], "command": "duplicate_line" },
+	{ "keys": ["super+up"], "command": "swap_line_up" },
+	{ "keys": ["super+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "brackets"} },
+	{ "keys": ["super+b"], "command": "goto_python_definition" },
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+    { "keys": ["ctrl+alt+t"], "command": "html_tidy"},
+    { "keys": ["super+alt+r"], "command": "refresh_folder_list"},
+    { "keys": ["super+alt+p"], "command": "htmlprettify"},
+    { "keys": ["super+c"], "command": "noop" },
+    { "keys": ["super+c"], "command": "copy", "context":
+    [
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+    },
+    { "keys": ["super+k", "super+t"], "command": "title_case" },
+    {"keys": ["ctrl+k", "ctrl+n"], "command": "toggle_setting", "args": {"setting": "line_numbers"} }
+]
