@@ -11,3 +11,19 @@ To install my settings (in mac) go to the Sublime Text Packages folder in termin
 Then clone this repo:
 
     git clone https://github.com/canvaspixels/sublime-settings.git User
+
+Note that you may need to copy some of the existing files from UserOld to User:
+
+    Package Control.last-run
+    Package Control.ca-list
+    Package Control.ca-bundle
+    Package Control.system-ca-bundle
+    Package Control.cache/
+    Package Control.ca-certs/
+    Package Control.merged-ca-bundle
+    Package Control.sublime-settings
+    Package Control.user-ca-bundle
+
+Assuming you are on mac you could use finder:
+
+    open ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
